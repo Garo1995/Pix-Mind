@@ -1460,3 +1460,9 @@ footer .container{
         object-position: right;
     }
 }
+
+@media (max-width: 480px){
+    .convert-fon {
+        background-position-y: bottom;
+    }
+}
