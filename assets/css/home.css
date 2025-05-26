@@ -686,6 +686,8 @@ p{
 }
 
 
+
+
 .reviews-box{
     width: 100%;
     border-radius: 24px;
@@ -743,8 +745,22 @@ p{
 }
 
 
-
-
+.reviews-slider-rel{
+    position: relative;
+}
+.reviews-slider-rel .list-left, .reviews-slider-rel .list-right{
+    background: unset;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: 11;
+}
+.reviews-slider-rel .list-left{
+    left: -14px;
+}
+.reviews-slider-rel .list-right{
+    right: -14px;
+}
 
 
 
@@ -1169,7 +1185,7 @@ footer .container{
     }
     .best-convector-rel .btn{
         margin-top: 26px;
-        max-width: 350px;
+        max-width: 480px;
         width: 100%;
     }
     .best-convector-name strong {
@@ -1251,7 +1267,7 @@ footer .container{
     }
     .created-those-rel  .btn {
         margin-top: 26px;
-        max-width: 350px;
+        max-width: 480px;
         width: 100%;
     }
     .reviews-arrow {
@@ -1314,9 +1330,11 @@ footer .container{
     .losing-pixels h1 {
         max-width: 440px;
     }
-
+    .widh-full{
+        width: 100%;
+    }
     .losing-pixels .btn{
-        max-width: 350px;
+        max-width: 480px;
         width: 100%;
     }
     .footer-main{
@@ -1373,7 +1391,7 @@ footer .container{
         height: 153px;
     }
     .intelligent-info .btn {
-        max-width: 290px;
+        max-width: 480px;
         width: 100%;
     }
     .conv-clicks-style {
@@ -1404,11 +1422,15 @@ footer .container{
         margin-top: 32px;
     }
     .try-free-btn .btn{
-        max-width: 350px;
+        max-width: 480px;
         width: 100%;
+    }
+    .conv-clicks-box {
+        max-width: 450px;
     }
     .created-those-box {
         margin: 0 auto;
+        max-width: 450px;
     }
     .losing-pixels-desc{
         display: none;
